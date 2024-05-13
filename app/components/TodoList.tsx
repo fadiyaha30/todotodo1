@@ -11,8 +11,8 @@ const TodoList: React.FC<TodoListProps> = ({tasks}) => {
       {/* head */}
       <thead>
         <tr>
-          <th>Tasks</th>
-          <th>Actions</th>
+          <th>TASKS</th>
+          <th>ACTIONS</th>
         </tr>
       </thead>
       <tbody>
