@@ -1,13 +1,15 @@
-{
+ {
   "name": "todoapp",
   "version": "0.1.0",
   "private": true,
+  "main": "api/server.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "node api/server.js",
     "lint": "next lint",
     "json-server": "json-server --watch data/todos.json --port 3001"
+    
   },
   "dependencies": {
     "next": "14.2.3",
